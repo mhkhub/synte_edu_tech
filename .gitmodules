@@ -1,0 +1,3 @@
+[submodule "synte_Edu_tech_backend"]
+	path = synte_Edu_tech_backend
+	url = https://github.com/mhkhub/synte_edu_tech_backend

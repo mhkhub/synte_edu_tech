@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "autoname": "format:{MMM}-{circular_type}-{#####}",
+ "creation": "2025-08-14 13:06:07.428691",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "circular_subject",
+  "column_break_hoce",
+  "circular_to",
+  "column_break_ukja",
+  "circular_message",
+  "circular_type",
+  "circular_attachment",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "circular_subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subject",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_hoce",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "circular_to",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "To",
+   "options": "All Students\nClass Students\nSelected Students",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ukja",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "circular_message",
+   "fieldtype": "HTML Editor",
+   "in_list_view": 1,
+   "label": "Message",
+   "reqd": 1
+  },
+  {
+   "fieldname": "circular_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Notice Board\nBulletin\nCirculars\nDaily Reports\nAssignments\nStudent Note",
+   "reqd": 1
+  },
+  {
+   "fieldname": "circular_attachment",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Circulars",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-08-14 13:25:28.075480",
+ "modified_by": "sami@megaschool.net",
+ "module": "Synte Mobile App for Education",
+ "name": "Circulars",
+ "naming_rule": "Expression",
+ "owner": "sami@megaschool.net",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
