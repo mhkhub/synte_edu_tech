@@ -1,7 +1,10 @@
-<<<<<<< HEAD
 ### Synte Edu Mobile App Tech
 
-Parents/Gurdian Mobile App for Frappe Education
+#Parents/Gurdian Mobile App for Frappe Education
+
+Features:
+Frappe has Education App but it lacks Mobile App for Parents/Gurdian so this mobile App is close the gap
+Easy Parent Details, Frappe app has Gurdian Linking to Student which need several step, this app add few property to Student DocType which makes lot easier to fill parent details (by import or manaul entry)
 
 ### Installation
 
@@ -40,7 +43,7 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 mit
-=======
+
 # synte_edu_tech
 Parents/Gurdian Mobile App for Frappe Education
 >>>>>>> origin/main
