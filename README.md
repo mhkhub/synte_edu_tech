@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### Synte Edu Mobile App Tech
 
 Parents/Gurdian Mobile App for Frappe Education
@@ -39,3 +40,7 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ### License
 
 mit
+=======
+# synte_edu_tech
+Parents/Gurdian Mobile App for Frappe Education
+>>>>>>> origin/main
