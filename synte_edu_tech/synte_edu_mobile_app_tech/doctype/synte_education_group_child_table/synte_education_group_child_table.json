@@ -1,0 +1,31 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-28 16:13:42.840419",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "synte_group_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "synte_group_link",
+   "fieldtype": "Link",
+   "label": "Group",
+   "options": "Student Group"
+  }
+ ],
+ "grid_page_length": 50,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-28 16:32:27.293072",
+ "modified_by": "sami@megaschool.net",
+ "module": "Synte Edu Mobile App Tech",
+ "name": "Synte Education Group Child Table",
+ "owner": "sami@megaschool.net",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-08-28 16:17:46.977465",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "subject",
+  "column_break_lrkb",
+  "type",
+  "to",
+  "all",
+  "classes",
+  "column_break_hwaf",
+  "students",
+  "contents_section",
+  "content",
+  "attachments"
+ ],
+ "fields": [
+  {
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "label": "Subject"
+  },
+  {
+   "fieldname": "column_break_lrkb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "Assignments\nBulletin\nCirculars\nDaily Report\nNotice Board\nStudent Note"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Section Break",
+   "label": "To"
+  },
+  {
+   "default": "0",
+   "fieldname": "all",
+   "fieldtype": "Check",
+   "label": "Entire School (students of all classes & sections)"
+  },
+  {
+   "fieldname": "classes",
+   "fieldtype": "Table MultiSelect",
+   "label": "Class & Section (Group)",
+   "options": "Synte Education Group Child Table"
+  },
+  {
+   "fieldname": "students",
+   "fieldtype": "Table MultiSelect",
+   "label": "Students",
+   "options": "Synte Education Student Child Table"
+  },
+  {
+   "fieldname": "contents_section",
+   "fieldtype": "Section Break",
+   "label": "Contents"
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "Text Editor",
+   "label": "Message"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "column_break_hwaf",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-08-28 16:33:20.171171",
+ "modified_by": "sami@megaschool.net",
+ "module": "Synte Edu Mobile App Tech",
+ "name": "Synte Education Announcement",
+ "owner": "sami@megaschool.net",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
