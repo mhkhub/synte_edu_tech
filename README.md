@@ -12,7 +12,7 @@ You can install this app using the [bench](https://github.com/frappe/bench) CLI:
 
 ```bash
 cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch develop
+bench get-app [$URL_OF_THIS_REPO](https://github.com/mhkhub/synte_edu_tech.git) --branch develop
 bench install-app synte_edu_tech
 ```
 
